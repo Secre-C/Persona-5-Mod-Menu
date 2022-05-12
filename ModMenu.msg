@@ -17,6 +17,8 @@ Amicitia Mod Menu[w][e]
 [s]Font Test[f 4 26 12 105][e]
 [s]Particle Test[f 4 26 13 106][e]
 [s]Edit Environment[f 4 26 14 107][e]
+[s]Shop Test[e]
+[s]Text Chat Test[e]
 [s]About[f 4 26 15 108][e]
 
 [dlg GENERIC_HELP_93]
@@ -179,6 +181,9 @@ Igor[f 4 26 0 134][e]
 [f 2 4 26][f 4 26 18 152][e]
 [f 2 4 27][f 4 26 19 153][e]
 [f 2 4 28][f 4 26 20 154][e]
+Kasumi[f 4 26 33 155][e]
+Maruki[f 4 26 35 156][e]
+Sumire[f 4 26 36 157][e]
 
 [dlg GENERIC_HELP_134]
 [s]Set the desired rank for[n]the Confidant of the [clr 9]Fool[clr 0][n]Arcana.[e]
@@ -243,6 +248,15 @@ Igor[f 4 26 0 134][e]
 [dlg GENERIC_HELP_154]
 [s]Set the desired rank for[n]the Confidant of the [clr 9]Judgement[clr 0][n]Arcana.[e]
 
+[dlg GENERIC_HELP_155]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Faith[clr 0][n]Arcana.[e]
+
+[dlg GENERIC_HELP_156]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Councillor[clr 0][n]Arcana.[e]
+
+[dlg GENERIC_HELP_157]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Faith[clr 0][n]Arcana.[e]
+
 [dlg UNUSED_HELP_59]
 [s]Set the desired rank for[n]the Confidant of the [clr 9]World[clr 0][n]Arcana.[e]
 
@@ -250,25 +264,25 @@ Igor[f 4 26 0 134][e]
 Select Stat Type...[w][e]
 
 [sel StatsMenu]
-Knowledge[f 4 26 0 158][e]
-Charm[f 4 26 1 159][e]
-Proficiency[f 4 26 2 160][e]
-Guts[f 4 26 3 161][e]
-Kindness[f 4 26 4 162][e]
-
-[dlg GENERIC_HELP_158]
-[s]Increase your [clr 26]Knowledge[clr 0] stat[n]by the specified number of[n]points.[e]
-
-[dlg GENERIC_HELP_159]
-[s]Increase your [clr 26]Charm[clr 0] stat[n]by the specified number of[n]points.[e]
-
-[dlg GENERIC_HELP_160]
-[s]Increase your [clr 26]Proficiency[clr 0] stat[n]by the specified number of[n]points.[e]
+Knowledge[f 4 26 0 161][e]
+Charm[f 4 26 1 162][e]
+Proficiency[f 4 26 2 163][e]
+Guts[f 4 26 3 164][e]
+Kindness[f 4 26 4 165][e]
 
 [dlg GENERIC_HELP_161]
-[s]Increase your [clr 26]Guts[clr 0] stat[n]by the specified number of[n]points.[e]
+[s]Increase your [clr 26]Knowledge[clr 0] stat[n]by the specified number of[n]points.[e]
 
 [dlg GENERIC_HELP_162]
+[s]Increase your [clr 26]Charm[clr 0] stat[n]by the specified number of[n]points.[e]
+
+[dlg GENERIC_HELP_163]
+[s]Increase your [clr 26]Proficiency[clr 0] stat[n]by the specified number of[n]points.[e]
+
+[dlg GENERIC_HELP_164]
+[s]Increase your [clr 26]Guts[clr 0] stat[n]by the specified number of[n]points.[e]
+
+[dlg GENERIC_HELP_165]
 [s]Increase your [clr 26]Kindness[clr 0] stat[n]by the specified number of[n]points.[e]
 
 [dlg StatPrompt [Stats]]
@@ -303,29 +317,29 @@ Umbrella Off[e]
 GAP Playback[w][e]
 
 [sel GAPMenu]
-Set GAP ID[f 4 26 0 172][e]
-Set GAP Index[f 4 26 1 173][e]
-Toggle Loop[f 4 26 2 174][e]
-Set Speed[f 4 26 3 175][e]
-Set Time[f 4 26 4 176][e]
-Playback animation[f 4 26 5 177][e]
-
-[dlg GENERIC_HELP_172]
-[s]Input the filename of[n]a [clr 9]field GAP file for[clr 0][n]this character. (Starts with [clr 9]af[clr 0])[e]
-
-[dlg GENERIC_HELP_173]
-[s]Input the index of the[n]animation from the [clr 26]GAP[clr 0][n]that you want to view.[e]
-
-[dlg GENERIC_HELP_174]
-[s]Decide whether you want[n]the animation to repeat or not[n]when it's finished.[e]
+Set GAP ID[f 4 26 0 175][e]
+Set GAP Index[f 4 26 1 176][e]
+Toggle Loop[f 4 26 2 177][e]
+Set Speed[f 4 26 3 178][e]
+Set Time[f 4 26 4 179][e]
+Playback animation[f 4 26 5 180][e]
 
 [dlg GENERIC_HELP_175]
-[s]Decide the playback speed[n]of the animation.[e]
+[s]Input the filename of[n]a [clr 9]field GAP file for[clr 0][n]this character. (Starts with [clr 9]af[clr 0])[e]
 
 [dlg GENERIC_HELP_176]
-[s]Decide how many seconds you[n]would like to play the[n]animation for.[e]
+[s]Input the index of the[n]animation from the [clr 26]GAP[clr 0][n]that you want to view.[e]
 
 [dlg GENERIC_HELP_177]
+[s]Decide whether you want[n]the animation to repeat or not[n]when it's finished.[e]
+
+[dlg GENERIC_HELP_178]
+[s]Decide the playback speed[n]of the animation.[e]
+
+[dlg GENERIC_HELP_179]
+[s]Decide how many seconds you[n]would like to play the[n]animation for.[e]
+
+[dlg GENERIC_HELP_180]
 [s]Execute the animation playback[n][clr 9]after the above settings[clr 0][n]have been completed.[e]
 
 [dlg ScalePrompt [Scale Model]]
@@ -336,30 +350,30 @@ Set the character's model scale.[n](press Circle to end)[n]Default is 10.[w][e]
 Camera Options[w][e]
 
 [sel CameraMenu]
-Reposition Camera[f 4 26 0 181][e]
-Adjust FOV[f 4 26 1 182][e]
-Adjust Zoom[f 4 26 2 183][e]
-Rotate Camera[f 4 26 3 184][e]
-Unlock Camera[f 4 26 4 185][e]
-Lock Camera[f 4 26 5 186][e]
-Disable Camera Shake[f 4 26 6 187][e]
-
-[dlg GENERIC_HELP_181]
-[s]Move the camera along the X, Y[n]or Z axis. Hold Square to change[n]the axis.[e]
-
-[dlg GENERIC_HELP_182]
-[s]Adjust the camera's[n]Field of View.[e]
-
-[dlg GENERIC_HELP_183]
-[s]Zoom the camera in[n]and out.[e]
+Reposition Camera[f 4 26 0 184][e]
+Adjust FOV[f 4 26 1 185][e]
+Adjust Zoom[f 4 26 2 186][e]
+Rotate Camera[f 4 26 3 187][e]
+Unlock Camera[f 4 26 4 188][e]
+Lock Camera[f 4 26 5 189][e]
+Disable Camera Shake[f 4 26 6 190][e]
 
 [dlg GENERIC_HELP_184]
-[s]Change the orientation of the[n]camera with the D-pad.[e]
+[s]Move the camera along the X, Y[n]or Z axis. Hold Square to change[n]the axis.[e]
 
 [dlg GENERIC_HELP_185]
-[s]Make the camera follow the player[n]again if previously locked.[e]
+[s]Adjust the camera's[n]Field of View.[e]
 
 [dlg GENERIC_HELP_186]
+[s]Zoom the camera in[n]and out.[e]
+
+[dlg GENERIC_HELP_187]
+[s]Change the orientation of the[n]camera with the D-pad.[e]
+
+[dlg GENERIC_HELP_188]
+[s]Make the camera follow the player[n]again if previously locked.[e]
+
+[dlg GENERIC_HELP_189]
 [s]Makes the camera stationary,[n]which is required to modify it.[e]
 
 [sel OneThruTen]
@@ -378,21 +392,21 @@ Disable Camera Shake[f 4 26 6 187][e]
 Calendar Options[w][e]
 
 [sel CalendarMenu]
-Set Next Day[f 4 26 0 190][e]
-Call Calendar[f 4 26 1 191][e]
-Set Weather[f 4 26 2 192][e]
-Loop Current Day[f 4 26 3 193][e]
-
-[dlg GENERIC_HELP_190]
-[s]Choose the day and month[n]to warp to.[e]
-
-[dlg GENERIC_HELP_191]
-[s]End the current day and warp[n]to the next specified day.[e]
-
-[dlg GENERIC_HELP_192]
-[s]Change the current weather[n]condition value. Weather should[n]change after reloading map.[e]
+Set Next Day[f 4 26 0 193][e]
+Call Calendar[f 4 26 1 194][e]
+Set Weather[f 4 26 2 195][e]
+Loop Current Day[f 4 26 3 196][e]
 
 [dlg GENERIC_HELP_193]
+[s]Choose the day and month[n]to warp to.[e]
+
+[dlg GENERIC_HELP_194]
+[s]End the current day and warp[n]to the next specified day.[e]
+
+[dlg GENERIC_HELP_195]
+[s]Change the current weather[n]condition value. Weather should[n]change after reloading map.[e]
+
+[dlg GENERIC_HELP_196]
 [s]Sets the current time[n]of day to be next after[n]ending the current day.[e]
 
 [dlg CalendarPrompt[Calendar]]
@@ -429,50 +443,50 @@ Choose the last 3 digits of
 NPC Options[w][e]
 
 [sel SpawnMenu]
-Spawn Model[f 4 26 0 204][e]
-Animate Model[f 4 26 1 205][e]
-Set Model Scale[f 4 26 2 206][e]
-Attach Item Model[f 4 26 3 207][e]
-Spawn Object Model[f 4 26 4 208][e]
-
-[dlg GENERIC_HELP_204]
-[s]Input a [clr 9]GMD filename[clr 0][n]to spawn a character model from.[e]
-
-[dlg GENERIC_HELP_205]
-[s]Apply field animations[n]to the last NPC you spawned.[e]
-
-[dlg GENERIC_HELP_206]
-[s]Set the scale of the[n]NPC model.[e]
+Spawn Model[f 4 26 0 207][e]
+Animate Model[f 4 26 1 208][e]
+Set Model Scale[f 4 26 2 209][e]
+Attach Item Model[f 4 26 3 210][e]
+Spawn Object Model[f 4 26 4 211][e]
 
 [dlg GENERIC_HELP_207]
-[s]Input a [clr 9]GMD filename[clr 0][n]to attach to the NPC.[e]
+[s]Input a [clr 9]GMD filename[clr 0][n]to spawn a character model from.[e]
 
 [dlg GENERIC_HELP_208]
+[s]Apply field animations[n]to the last NPC you spawned.[e]
+
+[dlg GENERIC_HELP_209]
+[s]Set the scale of the[n]NPC model.[e]
+
+[dlg GENERIC_HELP_210]
+[s]Input a [clr 9]GMD filename[clr 0][n]to attach to the NPC.[e]
+
+[dlg GENERIC_HELP_211]
 [s]Input a [clr 9]GMD filename[clr 0][n]of an object to spawn.[e]
 
 [dlg PersonaMenuName]
 Persona Options[w][e]
 
 [sel PersonaMenu]
-Add Persona[f 4 26 0 211][e]
-Delete Personas[f 4 26 1 212][e]
-Add Skill[f 4 26 2 213][e]
-Unlock Full Compendium[f 4 26 3 214][e]
-Evolve Persona[f 4 26 4 215][e]
-
-[dlg GENERIC_HELP_211]
-[s]Input a Persona's name or ID[n]to add it to your stock.[e]
-
-[dlg GENERIC_HELP_212]
-[s]Permanently remove all Personas[n]from your current stock.[e]
-
-[dlg GENERIC_HELP_213]
-[s]Choose a party member and the[n]name or ID of a Skill to add[n]to their current Persona.[e]
+Add Persona[f 4 26 0 214][e]
+Delete Personas[f 4 26 1 215][e]
+Add Skill[f 4 26 2 216][e]
+Unlock Full Compendium[f 4 26 3 217][e]
+Evolve Persona[f 4 26 4 218][e]
 
 [dlg GENERIC_HELP_214]
-[s]Register every Persona in[n]the game by filling your[n]stock with them all.[e]
+[s]Input a Persona's name or ID[n]to add it to your stock.[e]
 
 [dlg GENERIC_HELP_215]
+[s]Permanently remove all Personas[n]from your current stock.[e]
+
+[dlg GENERIC_HELP_216]
+[s]Choose a party member and the[n]name or ID of a Skill to add[n]to their current Persona.[e]
+
+[dlg GENERIC_HELP_217]
+[s]Register every Persona in[n]the game by filling your[n]stock with them all.[e]
+
+[dlg GENERIC_HELP_218]
 [s]Evolve a party member's Persona[n]into its Ultimate form.[e]
 
 
@@ -562,95 +576,97 @@ Select a bgm to play.[w][e]
 Flag Options[w][e]
 
 [sel FlagMenu]
-HUD Display[f 4 26 0 236][e]
-Add Party Members[f 4 26 1 237][e]
-Remove Party Members[f 4 26 2 238][e]
-Enable Party Editing[f 4 26 3 239][e]
-Unlock All Persona Slots[f 4 26 4 240][e]
-Add Overworld Follower[f 4 26 5 241][e]
-Navigator[f 4 26 6 242][e]
-Change Romance Route[f 4 26 7 243][e]
-Room Editor[f 4 26 8 244][e]
-Manual Input[f 4 26 9 245][e]
-Print Enabled Flags[f 4 26 10 246][e]
-Mass Flag Editor[f 4 26 11 247][e]
-
-[dlg GENERIC_HELP_236]
-[s]Show or hide the user interface[n]elements, such as the date, time,[n]and mission list.[e]
-
-[dlg GENERIC_HELP_237]
-[s]Make a Persona user available to[n]add to your party.[e]
-
-[dlg GENERIC_HELP_238]
-[s]Revoke a Persona user's[n]availability to be added[n]to your party.[e]
+HUD Display[f 4 26 0 239][e]
+Add Party Members[f 4 26 1 240][e]
+Remove Party Members[f 4 26 2 241][e]
+Enable Party Editing[f 4 26 3 242][e]
+Unlock All Persona Slots[f 4 26 4 243][e]
+Add Overworld Follower[f 4 26 5 244][e]
+Navigator[f 4 26 6 245][e]
+Change Romance Route[f 4 26 7 246][e]
+Room Editor[f 4 26 8 247][e]
+Manual Input[f 4 26 9 248][e]
+Print Enabled Flags[f 4 26 10 249][e]
+Mass Flag Editor[f 4 26 11 250][e]
 
 [dlg GENERIC_HELP_239]
-[s]Allow choosing your own[n]party members from the Stats[n]menu in the pause menu.[e]
+[s]Show or hide the user interface[n]elements, such as the date, time,[n]and mission list.[e]
 
 [dlg GENERIC_HELP_240]
-[s]Unlocks all 12 Persona slots.[e]
+[s]Make a Persona user available to[n]add to your party.[e]
 
 [dlg GENERIC_HELP_241]
-[s]Enable or disable party[n]members following you[n]in the overworld.[e]
+[s]Revoke a Persona user's[n]availability to be added[n]to your party.[e]
 
 [dlg GENERIC_HELP_242]
-[s]Change which character[n]currently serves as the Navigator.[e]
+[s]Allow choosing your own[n]party members from the Stats[n]menu in the pause menu.[e]
 
 [dlg GENERIC_HELP_243]
-[s]Start or end a relationship with[n]a female Confidant.[e]
+[s]Unlocks all 12 Persona slots.[e]
 
 [dlg GENERIC_HELP_244]
-[s]Modify the state of the[n]protagonist's bedroom in[n]the Leblanc attic.[e]
+[s]Enable or disable party[n]members following you[n]in the overworld.[e]
 
 [dlg GENERIC_HELP_245]
-[s]Enter an 4-digit decimal value[n]of a bit to either[n]enable or disable it.[e]
+[s]Change which character[n]currently serves as the Navigator.[e]
 
 [dlg GENERIC_HELP_246]
-[s]Print all currently enabled[n]bit flag values to the[n]TTY log.[e]
+[s]Start or end a relationship with[n]a female Confidant.[e]
 
 [dlg GENERIC_HELP_247]
+[s]Modify the state of the[n]protagonist's bedroom in[n]the Leblanc attic.[e]
+
+[dlg GENERIC_HELP_248]
+[s]Enter an 4-digit decimal value[n]of a bit to either[n]enable or disable it.[e]
+
+[dlg GENERIC_HELP_249]
+[s]Print all currently enabled[n]bit flag values to the[n]TTY log.[e]
+
+[dlg GENERIC_HELP_250]
 [s]Manipulate a selected[n]range of bit flags to[n]toggle or print.[e]
 
 [dlg FieldMenuName]
 Field Select[e]
 
 [sel FieldMenu]
-Enter Field ID[f 4 26 0 250][e]
-Select by name[f 4 26 1 251][e]
-Load Field[f 4 26 2 252][e]
-Reload Current Field[f 4 26 3 253][e]
-
-[dlg GENERIC_HELP_250]
-[s]Input the 6 digits of a[n][clr 9]field pack's[clr 0] filename[n](found in ps3.cpk/field)[e]
-
-[dlg GENERIC_HELP_251]
-[s]Select a field by name[e]
-
-[dlg GENERIC_HELP_252]
-[s]Attempt to load the selected[n]field. [clr 9]WARNING: Some fields may[n]softlock the game.[clr 0][e]
+Enter Field ID[f 4 26 0 253][e]
+Select by name[f 4 26 1 254][e]
+Load Field[f 4 26 2 255][e]
+Reload Current Field[f 4 26 3 256][e]
 
 [dlg GENERIC_HELP_253]
+[s]Input the 6 digits of a[n][clr 9]field pack's[clr 0] filename[n](found in ps3.cpk/field)[e]
+
+[dlg GENERIC_HELP_254]
+[s]Select a field by name[e]
+
+[dlg GENERIC_HELP_255]
+[s]Attempt to load the selected[n]field. [clr 9]WARNING: Some fields may[n]softlock the game.[clr 0][e]
+
+[dlg GENERIC_HELP_256]
 [s]Reload the field that[n]you're currently on.[e]
 
 [dlg EventMenuName]
 Event Select[e]
 
 [sel EventMenu]
-Enter Event ID[f 4 26 0 256][e]
-Load Event[f 4 26 1 257][e]
-Enter KeyFree Event ID[f 4 26 2 258][e]
-Load KeyFree Event[f 4 26 3 259][e]
-
-[dlg GENERIC_HELP_256]
-[s]Input the 6 digits of a[n][clr 9]event pack's[clr 0] filename[n](found in data.cpk/event)[e]
-
-[dlg GENERIC_HELP_257]
-[s]Attempt to load the selected[n]event. [clr 9]WARNING: Some events may[n]softlock the game.[clr 0][e]
-
-[dlg GENERIC_HELP_258]
-[s]Input the 6 digits of a[n][clr 9]event pack's[clr 0] filename[n](found in ps3.cpk/field).[clr 0][e]
+Enter Event ID[f 4 26 0 259][e]
+Load Event[f 4 26 1 260][e]
+Enter KeyFree Event ID[f 4 26 2 261][e]
+Load KeyFree Event[f 4 26 3 262][e]
+Change Event MajorID[f 4 26 4 263][e]
+Change Event MinorID[f 4 26 5 264][e]
 
 [dlg GENERIC_HELP_259]
+[s]Input the 6 digits of a[n][clr 9]event pack's[clr 0] filename[n](found in data.cpk/event)[e]
+
+[dlg GENERIC_HELP_260]
+[s]Attempt to load the selected[n]event. [clr 9]WARNING: Some events may[n]softlock the game.[clr 0][e]
+
+[dlg GENERIC_HELP_261]
+[s]Input the 6 digits of a[n][clr 9]event pack's[clr 0] filename[n](found in ps3.cpk/field).[clr 0][e]
+
+[dlg GENERIC_HELP_262]
 [s]Attempt to load the selected[n]KeyFree event. [clr 9]WARNING: Some events may[n]softlock the game.[clr 0][e]
 
 [dlg NaviMenuName]
@@ -939,6 +955,12 @@ MISC[e]
 [dlg EncounterPrompt]
 Set the number of the encounter[n]you want to fight (3 digits).[w][e]
 
+[dlg ShopPrompt]
+Input the ID of the shop[n]you want to test (2 digits).[w][e]
+
+[dlg ChatPrompt]
+Input the ID of the chat[n]you want to test (4 digits).[w][e]
+
 [sel FlagMassEditor]
 Disable all flags[e]
 Enable all flags[e]
@@ -965,13 +987,13 @@ Add Persona (Reserves)[e]
 [dlg BagShowHide]
 The bag has been toggled.[n]To see the change, go to a new field[n]or reload the current one.[w][e]
 
-[dlg GENERIC_HELP_307]
+[dlg GENERIC_HELP_312]
 Removes the swaying effect[n]of the camera that's[n]used in dungeons.[w][e]
 
-[dlg GENERIC_HELP_308]
+[dlg GENERIC_HELP_313]
 Select an item's model ID to[n]spawn it and connect it to[n]the character's model.[w][e]
 
-[dlg GENERIC_HELP_309]
+[dlg GENERIC_HELP_314]
 Select a range of flags[n]to either enable or disable.[w][e]
 
 [dlg ItemSpawnPrompt]
@@ -992,32 +1014,32 @@ Enter the start of the[n]range to narrow down.[n](Max 4 digits, press Circle to 
 [dlg FlagRangePrompt2]
 Enter the end of the[n]range to narrow down.[n](Max 4 digits, press Circle to end).[w][e]
 
-[dlg GENERIC_HELP_316]
+[dlg GENERIC_HELP_321]
 Unlocks all Personas in the[n]Compendium. [clr 9]This will delete all[n]Personas in your current stock![clr 0][w][e]
 
 [dlg FontMenuName]
 Font Test Options[w][e]
 
 [sel FontTestMenu]
-[s]Sample text[f 4 26 0 319][e]
-[s]Uppercase[f 4 26 1 320][e]
-[s]Lowercase[f 4 26 2 321][e]
-[s]Symbols[f 4 26 3 322][e]
-[s]All-in-One[f 4 26 4 323][e]
+[s]Sample text[f 4 26 0 324][e]
+[s]Uppercase[f 4 26 1 325][e]
+[s]Lowercase[f 4 26 2 326][e]
+[s]Symbols[f 4 26 3 327][e]
+[s]All-in-One[f 4 26 4 328][e]
 
-[dlg GENERIC_HELP_319]
+[dlg GENERIC_HELP_324]
 [s]Print a sample sentence[n]for font testing.[e]
 
-[dlg GENERIC_HELP_320]
+[dlg GENERIC_HELP_325]
 [s]Print a text message with[n]uppercase letters.[e]
 
-[dlg GENERIC_HELP_321]
+[dlg GENERIC_HELP_326]
 [s]Print a text message with[n]lowercase letters.[e]
 
-[dlg GENERIC_HELP_322]
+[dlg GENERIC_HELP_327]
 [s]Print a text message with[n]numbers and special[n]characters.[e]
 
-[dlg GENERIC_HELP_323]
+[dlg GENERIC_HELP_328]
 [s]Print a text message with[n]all the characters.[e]
 
 [dlg FontTest0[The Font Guy]]
@@ -1039,74 +1061,74 @@ Font Test Options[w][e]
 Party Member Cutin Test[w][e]
 
 [sel PartyCharacterSelect]
-[s][f 2 4 2][f 4 26 0 331][e]
-[s][f 2 4 3][f 4 26 1 332][e]
-[s][f 2 4 4][f 4 26 2 333][e]
-[s][f 2 4 5][f 4 26 3 334][e]
-[s][f 2 4 6][f 4 26 4 335][e]
-[s][f 2 4 7][f 4 26 5 336][e]
-[s][f 2 4 8][f 4 26 6 337][e]
-[s][f 2 4 9][f 4 26 7 338][e]
-[s]Villain [f 2 4 9][f 4 26 8 339][e]
-
-[dlg GENERIC_HELP_331]
-[s]Test the dialogue cutins[n]for [f 2 4 2].[e]
-
-[dlg GENERIC_HELP_332]
-[s]Test the dialogue cutins[n]for [f 2 4 3].[e]
-
-[dlg GENERIC_HELP_333]
-[s]Test the dialogue cutins[n]for [f 2 4 4].[e]
-
-[dlg GENERIC_HELP_334]
-[s]Test the dialogue cutins[n]for [f 2 4 5].[e]
-
-[dlg GENERIC_HELP_335]
-[s]Test the dialogue cutins[n]for [f 2 4 6].[e]
+[s][f 2 4 2][f 4 26 0 336][e]
+[s][f 2 4 3][f 4 26 1 337][e]
+[s][f 2 4 4][f 4 26 2 338][e]
+[s][f 2 4 5][f 4 26 3 339][e]
+[s][f 2 4 6][f 4 26 4 340][e]
+[s][f 2 4 7][f 4 26 5 341][e]
+[s][f 2 4 8][f 4 26 6 342][e]
+[s][f 2 4 9][f 4 26 7 343][e]
+[s]Villain [f 2 4 9][f 4 26 8 344][e]
 
 [dlg GENERIC_HELP_336]
-[s]Test the dialogue cutins[n]for [f 2 4 7].[e]
+[s]Test the dialogue cutins[n]for [f 2 4 2].[e]
 
 [dlg GENERIC_HELP_337]
-[s]Test the dialogue cutins[n]for [f 2 4 8].[e]
+[s]Test the dialogue cutins[n]for [f 2 4 3].[e]
 
 [dlg GENERIC_HELP_338]
-[s]Test the dialogue cutins[n]for [f 2 4 9].[e]
+[s]Test the dialogue cutins[n]for [f 2 4 4].[e]
 
 [dlg GENERIC_HELP_339]
+[s]Test the dialogue cutins[n]for [f 2 4 5].[e]
+
+[dlg GENERIC_HELP_340]
+[s]Test the dialogue cutins[n]for [f 2 4 6].[e]
+
+[dlg GENERIC_HELP_341]
+[s]Test the dialogue cutins[n]for [f 2 4 7].[e]
+
+[dlg GENERIC_HELP_342]
+[s]Test the dialogue cutins[n]for [f 2 4 8].[e]
+
+[dlg GENERIC_HELP_343]
+[s]Test the dialogue cutins[n]for [f 2 4 9].[e]
+
+[dlg GENERIC_HELP_344]
 [s]Test the dialogue cutins[n]for Villain [f 2 4 9].[e]
 
 [dlg ParticleMenuName]
 Particle Menu[w][e]
 
 [sel ParticleMenu]
-[s]Automatic Particle Selection[f 4 26 0 342][e]
-[s]Manual Particle Selection[f 4 26 1 343][e]
-[s]Set Params to Default[f 4 26 2 344][e]
-[s]Set Effect Size[f 4 26 3 345][e]
-[s]Set Effect Speed[f 4 26 4 346][e]
-[s]Set Effect Position[f 4 26 5 347][e]
-[s]Set Effect Translucency[f 4 26 6 348][e]
-
-[dlg GENERIC_HELP_342]
-[s]Preview EPL's placed inside[n]'data.cpk\field\effect\bank'[n][clr 9]MUST BE NAMED fb###.EPL[n]OR THE GAME SOFTLOCKS![clr 0][e]
-
-[dlg GENERIC_HELP_343]
-[s]Select a 3-digit number from the[n]effect bank folder [clr 9](fb###.EPL)[n][clr 0]to preview.[e]
-
-[dlg GENERIC_HELP_344]
-[s]Reset all properties of[n]the current EPL.[n][e]
-
-[dlg GENERIC_HELP_345]
-[s]Set the Size[n]of the current EPL.[n][e]
-
-[dlg GENERIC_HELP_346]
-[s]Set the Speed[n]of the current EPL.[n][e]
+[s]Automatic Particle Selection[f 4 26 0 347][e]
+[s]Manual Particle Selection[f 4 26 1 348][e]
+[s]Set Params to Default[f 4 26 2 349][e]
+[s]Set Effect Size[f 4 26 3 350][e]
+[s]Set Effect Speed[f 4 26 4 351][e]
+[s]Set Effect Position[f 4 26 5 352][e]
+[s]Set Effect Translucency[f 4 26 6 353][e]
 
 [dlg GENERIC_HELP_347]
-[s]Set the Position[n]of the current EPL to the player.[e]
+[s]Preview EPL's placed inside[n]'data.cpk\field\effect\bank'[n][clr 9]MUST BE NAMED fb###.EPL[n]OR THE GAME SOFTLOCKS![clr 0][e]
 
 [dlg GENERIC_HELP_348]
+[s]Select a 3-digit number from the[n]effect bank folder [clr 9](fb###.EPL)[n][clr 0]to preview.[e]
+
+[dlg GENERIC_HELP_349]
+[s]Reset all properties of[n]the current EPL.[n][e]
+
+[dlg GENERIC_HELP_350]
+[s]Set the Size[n]of the current EPL.[n][e]
+
+[dlg GENERIC_HELP_351]
+[s]Set the Speed[n]of the current EPL.[n][e]
+
+[dlg GENERIC_HELP_352]
+[s]Set the Position[n]of the current EPL to the player.[e]
+
+[dlg GENERIC_HELP_353]
 [s]Set the Opacity[n]of the current EPL.[n][e]
 
 [dlg ScaleParticle]
@@ -1119,53 +1141,53 @@ Set the particles's speed.[n](press Circle to end)[n]Default is 10.[w][e]
 Set the particles's opacity.[n](press Circle to end)[n]Default is 10.[w][e]
 
 [sel EnviromentEditor]
-[s]Set all Scenelights to White[f 4 26 0 353][e]
-[s]Print Scenelights to TTY[f 4 26 1 354][e]
-[s]Set Ambient Scenelight[f 4 26 2 355][e]
-[s]Set Diffuse Scenelight[f 4 26 3 356][e]
-[s]Set Specular Scenelight[f 4 26 4 357][e]
-[s]Print Current Fog Params to TTY[f 4 26 5 358][e]
-[s]Set Near Clip[f 4 26 6 359][e]
-[s]Set Far Clip[f 4 26 7 360][e]
-[s]Set Fog Hue[f 4 26 8 361][e]
-[s]Set Fog Saturation[f 4 26 9 362][e]
-[s]Set Fog Lightness[f 4 26 10 363][e]
-[s]Set Fog Alpha[f 4 26 11 364][e]
-
-[dlg GENERIC_HELP_353]
-[s]Set all Scenelight data on[n]the current field to 255.[e]
-
-[dlg GENERIC_HELP_354]
-[s]Print all Scenelight data on[n]the current field to the TTY Log.[e]
-
-[dlg GENERIC_HELP_355]
-[s]Set the HSL Values for the[n]Ambient Scenelight.[e]
-
-[dlg GENERIC_HELP_356]
-[s]Set the HSL Values for the[n]Diffuse Scenelight.[e]
-
-[dlg GENERIC_HELP_357]
-[s]Set the HSL Values for the[n]Specular Scenelight.[e]
+[s]Set all Scenelights to White[f 4 26 0 358][e]
+[s]Print Scenelights to TTY[f 4 26 1 359][e]
+[s]Set Ambient Scenelight[f 4 26 2 360][e]
+[s]Set Diffuse Scenelight[f 4 26 3 361][e]
+[s]Set Specular Scenelight[f 4 26 4 362][e]
+[s]Print Current Fog Params to TTY[f 4 26 5 363][e]
+[s]Set Near Clip[f 4 26 6 364][e]
+[s]Set Far Clip[f 4 26 7 365][e]
+[s]Set Fog Hue[f 4 26 8 366][e]
+[s]Set Fog Saturation[f 4 26 9 367][e]
+[s]Set Fog Lightness[f 4 26 10 368][e]
+[s]Set Fog Alpha[f 4 26 11 369][e]
 
 [dlg GENERIC_HELP_358]
-[s]Print all fog params on[n]the current field to the TTY Log.[e]
+[s]Set all Scenelight data on[n]the current field to 255.[e]
 
 [dlg GENERIC_HELP_359]
-[s]Set the starting[n]location for the fog.[e]
+[s]Print all Scenelight data on[n]the current field to the TTY Log.[e]
 
 [dlg GENERIC_HELP_360]
-[s]Set the starting[n]radius for the fog.[e]
+[s]Set the HSL Values for the[n]Ambient Scenelight.[e]
 
 [dlg GENERIC_HELP_361]
-[s]Set the current fog's Hue.[e]
+[s]Set the HSL Values for the[n]Diffuse Scenelight.[e]
 
 [dlg GENERIC_HELP_362]
-[s]Set the current fog's Saturation.[e]
+[s]Set the HSL Values for the[n]Specular Scenelight.[e]
 
 [dlg GENERIC_HELP_363]
-[s]Set the current fog's Lightness.[e]
+[s]Print all fog params on[n]the current field to the TTY Log.[e]
 
 [dlg GENERIC_HELP_364]
+[s]Set the starting[n]location for the fog.[e]
+
+[dlg GENERIC_HELP_365]
+[s]Set the starting[n]radius for the fog.[e]
+
+[dlg GENERIC_HELP_366]
+[s]Set the current fog's Hue.[e]
+
+[dlg GENERIC_HELP_367]
+[s]Set the current fog's Saturation.[e]
+
+[dlg GENERIC_HELP_368]
+[s]Set the current fog's Lightness.[e]
+
+[dlg GENERIC_HELP_369]
 [s]Set the current fog's Opacity.[e]
 
 [dlg HueDlg]

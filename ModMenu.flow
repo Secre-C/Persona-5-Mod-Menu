@@ -100,12 +100,42 @@ void ModMenuDisplay()
                 break;
             case 14: 
                 EditEnviroment();    
-                break;                
-            case 15:
+                break; 
+			case 15:
+				ShopTestMenu();
+				break;               
+            case 16:
+                ChatTestMenu();
+                break;               
+            case 17:
                 DisplayMessagePrompt( AboutDlg );
                 break;
         }
     }
+}
+
+void ChatTestMenu()
+{
+	int chat = SelectNumberPrompt( ChatPrompt, 4 );
+	
+	if ( chat == -1 )
+	{
+		return;
+	}
+	
+	CALL_CHAT_ARRIVAL( chat );
+}
+
+void ShopTestMenu() 
+{
+    int shop = SelectNumberPrompt( ShopPrompt, 2 );
+    
+    if ( shop == -1 )
+	{
+        return;
+	}
+   
+    CALL_PUBLIC_SHOP( shop );
 }
 
 void PrintPosition()
@@ -478,8 +508,16 @@ void CommuSetRankSelect()
 {
     SetConfidantNames();
     int cmmId = SEL_GENERIC( CommuMenuName, CommuMenu ) + 1;
+    if ( cmmId > 22 )
+    {
+        cmmId += 12;
+    }
+    else if ( cmmId == 22 )
+    {
+        cmmId = 33;
+    }
     
-    if ( cmmId <= 0 || cmmId >= 22 )
+    if ( cmmId <= 0 || cmmId >= 37 )
         return;
         
     DisplayMessagePrompt( CmmDialog2 );
@@ -490,10 +528,14 @@ void CommuSetRankSelect()
         
     CMM_RANKUP( cmmId, lvl, 1 );
     
-    if ( !CMM_EXIST( cmmId ) ) {
+    /*if ( cmmId == 36 || cmmId == 37 )
+	{
+		cmmId = 33;
+	} */
+	
+	if ( !CMM_EXIST( cmmId ) ) {
         CMM_OPEN( cmmId );
     }
-    
     CMM_SET_LV( cmmId, lvl );
     CMM_ADD_POINT( cmmId, 9999 );
 }
@@ -1665,6 +1707,12 @@ void EventSelect()
             case 3:
                 KfEventLoadSelected();
                 return;
+			case 4:
+                EventSelectMajorIds();
+                return;
+			case 5:
+                EventSelectMinorIds();
+                return;
         }
     }
 }
@@ -1719,6 +1767,30 @@ void KfEventLoadSelected()
 
     CALL_KF_EVENT( gKfEventMajor, gKfEventMinor, 0, 0 );
     ReloadPreviousField();
+}
+
+void EventSelectMajorIds()
+{
+	int temp = SelectNumberPrompt( EventDlg, 3 );
+    if ( temp == -1 )
+	{
+		EventSelect();
+        return;
+	}
+    gEventMajor = temp;
+	EventSelect();
+}
+
+void EventSelectMinorIds()
+{
+	int temp = SelectNumberPrompt( EventDlg2, 3 );
+    if ( temp == -1 )
+	{
+        EventSelect();
+		return;
+	}
+    gEventMinor = temp;
+	EventSelect();
 }
 
 void PlayerSetMaxMoney() 
@@ -1809,7 +1881,7 @@ void CalendarSetNextDaySelect()
         return;
     }
     
-    SET_NEXT_DAY( month, day, 1 );
+    SET_NEXT_DAY( month, day, 0 );
     PUT( month );
     PUT( day );
 }
