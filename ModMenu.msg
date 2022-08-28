@@ -503,6 +503,7 @@ Select Party Member[w][e]
 [f 2 4 7][e]
 [f 2 4 8][e]
 [f 2 4 9][e]
+Yoshizawa[e]
 
 [sel UnitSelect2]
 [f 2 4 2][e]
@@ -513,6 +514,7 @@ Select Party Member[w][e]
 [f 2 4 7][e]
 [f 2 4 8][e]
 [f 2 4 9][e]
+Yoshizawa[e]
 
 [dlg PersonaDelPrompt [Delete Personas]]
 This will permanently remove all 

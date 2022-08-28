@@ -38,7 +38,7 @@ void CutinTestDisplay()
                 break;    
             case 8:
                 CutinMenu( GoroExpressionRight );
-                break;    
+                break;
         }
     }
 }
