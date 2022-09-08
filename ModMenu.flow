@@ -143,19 +143,19 @@ void PrintPosition()
     PUTS( "Joker Translation:" );
     int pcHandle = FLD_PC_GET_RESHND( 0 );
     PUTS( "X:" );
-    PUT( FLD_MODEL_GET_X_TRANSLATE( pcHandle ) );
+    PUTF( FLD_MODEL_GET_X_TRANSLATE( pcHandle ) );
     PUTS( "Y:" );
-    PUT( FLD_MODEL_GET_Y_TRANSLATE( pcHandle ) );
+    PUTF( FLD_MODEL_GET_Y_TRANSLATE( pcHandle ) );
     PUTS( "Z:" );
-    PUT( FLD_MODEL_GET_Z_TRANSLATE( pcHandle ) );
+    PUTF( FLD_MODEL_GET_Z_TRANSLATE( pcHandle ) );
     
     PUTS( "Joker Rotation:" );
     PUTS( "X:" );
-    PUT( FLD_MODEL_GET_X_ROTATE( pcHandle ) );
+    PUTF( FLD_MODEL_GET_X_ROTATE( pcHandle ) );
     PUTS( "Y:" );
-    PUT( FLD_MODEL_GET_Y_ROTATE( pcHandle ) );
+    PUTF( FLD_MODEL_GET_Y_ROTATE( pcHandle ) );
     PUTS( "Z:" );
-    PUT( FLD_MODEL_GET_Z_ROTATE( pcHandle ) );
+    PUTF( FLD_MODEL_GET_Z_ROTATE( pcHandle ) );
 }
 
 // Player Editor
@@ -332,7 +332,7 @@ void PersonaAddSkillSelect( bool useNumberInput )
     int skillId;
     if ( useNumberInput )
     {
-        skillId = SelectNumberPrompt( SkillPrompt, 3 );
+        skillId = SelectNumberPrompt( SkillPrompt, 4 );
         if ( skillId == -1 ) // Cancel
             return;
     }
