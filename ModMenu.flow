@@ -26,6 +26,7 @@ global float gLastCamYRot;
 global float gLastCamZRot;
 global int gFieldMajor;
 global int gFieldMinor;
+global int gFieldEntrance;
 global int gEventMajor;
 global int gEventMinor;
 global int gKfEventMajor;
@@ -1666,6 +1667,10 @@ void FieldSelect()
                 if ( temp == -1 )
                     break;
                 gFieldMinor = temp;
+				
+				temp = SelectNumberPrompt( FieldDlg3, 3 );
+                if ( temp == -1 ) temp = 0;
+                gFieldEntrance = temp;
                 break;
             case 1:
                 MMFieldSelectCategories();
@@ -1674,7 +1679,7 @@ void FieldSelect()
                 if (gFieldMajor == 0 && gFieldMinor == 0)
                     MSG_SYSTEM( LoadCheckError );
                 else
-                    CALL_FIELD( gFieldMajor, gFieldMinor, 0, 0  );
+                    CALL_FIELD( gFieldMajor, gFieldMinor, gFieldEntrance, 0  );
                 return;
             case 3:
                 CALL_FIELD( FLD_GET_PREV_MAJOR(), FLD_GET_PREV_MINOR(), 0, 0 );
@@ -1706,12 +1711,6 @@ void EventSelect()
                 break;
             case 3:
                 KfEventLoadSelected();
-                return;
-			case 4:
-                EventSelectMajorIds();
-                return;
-			case 5:
-                EventSelectMinorIds();
                 return;
         }
     }
@@ -1778,18 +1777,6 @@ void EventSelectMajorIds()
         return;
 	}
     gEventMajor = temp;
-	EventSelect();
-}
-
-void EventSelectMinorIds()
-{
-	int temp = SelectNumberPrompt( EventDlg2, 3 );
-    if ( temp == -1 )
-	{
-        EventSelect();
-		return;
-	}
-    gEventMinor = temp;
 	EventSelect();
 }
 
@@ -1871,6 +1858,10 @@ void CalendarSetNextDaySelect()
     PUTS( "Current Day: " );
     PUT( thisDay );
     
+	if (month >= 1 && month <= 3)
+	{
+		month += 12;
+	}
     // We can only go backwards one day at a time, including jumping from the start of one month to the end of the previous month
     if ( ( ( month == thisMonth ) && ( ( day - thisDay ) < -1 ) ) ||
          ( ( month - thisMonth == -1 ) && ( thisDay == 1 && day != daysInMonth ) ) ||
@@ -2169,7 +2160,7 @@ void SelectRomanceFlags() {
 
 void SelectBitToggle()
 {
-    int id = SelectNumber( 4 );
+    int id = SelectNumber( 5 );
     if (id == -1)
         return;
     

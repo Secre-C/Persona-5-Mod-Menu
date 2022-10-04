@@ -17,9 +17,9 @@ Amicitia Mod Menu[w][e]
 [s]Font Test[f 4 26 12 105][e]
 [s]Particle Test[f 4 26 13 106][e]
 [s]Edit Environment[f 4 26 14 107][e]
-[s]Shop Test[e]
-[s]Text Chat Test[e]
-[s]About[f 4 26 15 108][e]
+[s]Shop Test[f 4 26 15 108][e]
+[s]Text Chat Test[f 4 26 16 109][e]
+[s]About[f 4 26 17 110][e]
 
 [dlg GENERIC_HELP_93]
 [s]View your IM messages[n]or auto heal the party[n]just like the Square Button is[n]supposed to do.[e]
@@ -67,92 +67,98 @@ Amicitia Mod Menu[w][e]
 [s]Change ENV and Fog values.[e]
 
 [dlg GENERIC_HELP_108]
+[s]Load any of the public shops[n]and test purchases.[e]
+
+[dlg GENERIC_HELP_109]
+[s]Send any text chat conversation[n]to your phone.[e]
+
+[dlg GENERIC_HELP_110]
 [s]Show some info about the[n]development of this mod.[e]
 
 [dlg PlayerMenuName]
 Player Options[w][e]
 
 [sel PlayerMenu]
-[s]Personas[f 4 26 0 111][e]
-[s]Social Stats[f 4 26 1 112][e]
-[s]Items[f 4 26 2 113][e]
-[s]Set Confidant Rank[f 4 26 3 114][e]
-[s]Set Protag Name[f 4 26 4 115][e]
-[s]Set Team Name[f 4 26 5 116][e]
-[s]Animation Test[f 4 26 6 117][e]
-[s]Set Scale[f 4 26 7 118][e]
-[s]Attach Item Model[f 4 26 8 119][e]
-[s]Max Money[f 4 26 9 120][e]
-
-[dlg GENERIC_HELP_111]
-[s]Add or remove your Personas, or[n]give you or your party[n]members new Skills.[e]
-
-[dlg GENERIC_HELP_112]
-[s]Add points to your Knowledge,[n]Charm, Proficiency, Guts[n]or Kindness.[e]
+[s]Personas[f 4 26 0 113][e]
+[s]Social Stats[f 4 26 1 114][e]
+[s]Items[f 4 26 2 115][e]
+[s]Set Confidant Rank[f 4 26 3 116][e]
+[s]Set Protag Name[f 4 26 4 117][e]
+[s]Set Team Name[f 4 26 5 118][e]
+[s]Animation Test[f 4 26 6 119][e]
+[s]Set Scale[f 4 26 7 120][e]
+[s]Attach Item Model[f 4 26 8 121][e]
+[s]Max Money[f 4 26 9 122][e]
 
 [dlg GENERIC_HELP_113]
-[s]Give yourself a desired amount of[n]any consumables, weapons, armor,[n]costumes, or even key items.[e]
+[s]Add or remove your Personas, or[n]give you or your party[n]members new Skills.[e]
 
 [dlg GENERIC_HELP_114]
-[s]Select a Confidant and set your[n]current rank with their Arcana.[e]
+[s]Add points to your Knowledge,[n]Charm, Proficiency, Guts[n]or Kindness.[e]
 
 [dlg GENERIC_HELP_115]
-[s]Rename the protagonist at any[n]point in the game.[n][e]
+[s]Give yourself a desired amount of[n]any consumables, weapons, armor,[n]costumes, or even key items.[e]
 
 [dlg GENERIC_HELP_116]
-[s]Change the group name of the[n]Phantom Thieves at any[n]point in the game.[n][e]
+[s]Select a Confidant and set your[n]current rank with their Arcana.[e]
 
 [dlg GENERIC_HELP_117]
-[s]Select one of the protagonist's[n]Field GAP files and view[n]its animations.[e]
+[s]Rename the protagonist at any[n]point in the game.[n][e]
 
 [dlg GENERIC_HELP_118]
-[s]Change the size of the[n]selected model.[e]
+[s]Change the group name of the[n]Phantom Thieves at any[n]point in the game.[n][e]
 
 [dlg GENERIC_HELP_119]
-[s]Enter an item's model ID[n]to attach it to the[n]protagonist's right hand.[e]
+[s]Select one of the protagonist's[n]Field GAP files and view[n]its animations.[e]
 
 [dlg GENERIC_HELP_120]
+[s]Change the size of the[n]selected model.[e]
+
+[dlg GENERIC_HELP_121]
+[s]Enter an item's model ID[n]to attach it to the[n]protagonist's right hand.[e]
+
+[dlg GENERIC_HELP_122]
 [s]Adds 9,999,999 yen to your[n]wallet.[e]
 
 [dlg ItemMenuName]
 Select Item Type...[w][e]
 
 [sel ItemMenu]
-Consumables[f 4 26 0 123][e]
-Accessories[f 4 26 1 124][e]
-Key Items[f 4 26 2 125][e]
-Ranged Weapons[f 4 26 3 126][e]
-Melee Weapons[f 4 26 4 127][e]
-Outfits[f 4 26 5 128][e]
-Armor[f 4 26 6 129][e]
-Materials[f 4 26 7 130][e]
-Skill Cards[f 4 26 8 131][e]
-
-[dlg GENERIC_HELP_123]
-[s]Items that recover HP & SP,[n]relieve status ailments, or[n]provide buffs or debuffs.[e]
-
-[dlg GENERIC_HELP_124]
-[s]Items that you can equip to your[n]party members for stat[n]enhancements.[e]
+Consumables[f 4 26 0 125][e]
+Accessories[f 4 26 1 126][e]
+Key Items[f 4 26 2 127][e]
+Ranged Weapons[f 4 26 3 128][e]
+Melee Weapons[f 4 26 4 129][e]
+Outfits[f 4 26 5 130][e]
+Armor[f 4 26 6 131][e]
+Materials[f 4 26 7 132][e]
+Skill Cards[f 4 26 8 133][e]
 
 [dlg GENERIC_HELP_125]
-[s]Passive items that are acquired[n]throughout the story.[e]
+[s]Items that recover HP & SP,[n]relieve status ailments, or[n]provide buffs or debuffs.[e]
 
 [dlg GENERIC_HELP_126]
-[s]Arms that can be equipped to[n]fire bullets during battle.[e]
+[s]Items that you can equip to your[n]party members for stat[n]enhancements.[e]
 
 [dlg GENERIC_HELP_127]
-[s]Weapons used for basic physical[n]attacks during battle.[e]
+[s]Passive items that are acquired[n]throughout the story.[e]
 
 [dlg GENERIC_HELP_128]
-[s]Equippable appearance changes[n]for party members that modify[n]their model in the Metaverse.[e]
+[s]Arms that can be equipped to[n]fire bullets during battle.[e]
 
 [dlg GENERIC_HELP_129]
-[s]Equippable items that can boost[n]defense or provide other benefits.[e]
+[s]Weapons used for basic physical[n]attacks during battle.[e]
 
 [dlg GENERIC_HELP_130]
-[s]Items that can be sold to Iwai[n]or used to create tools.[e]
+[s]Equippable appearance changes[n]for party members that modify[n]their model in the Metaverse.[e]
 
 [dlg GENERIC_HELP_131]
+[s]Equippable items that can boost[n]defense or provide other benefits.[e]
+
+[dlg GENERIC_HELP_132]
+[s]Items that can be sold to Iwai[n]or used to create tools.[e]
+
+[dlg GENERIC_HELP_133]
 [s]Items that can be used to assign[n]Skills to one of your Personas.[e]
 
 
@@ -160,101 +166,101 @@ Skill Cards[f 4 26 8 131][e]
 Select Confidant...[w][e]
 
 [sel CommuMenu]
-Igor[f 4 26 0 134][e]
-[f 2 4 3][f 4 26 1 135][e]
-[f 2 4 6][f 4 26 2 136][e]
-[f 2 4 7][f 4 26 3 137][e]
-[f 2 4 5][f 4 26 4 138][e]
-[f 2 4 16][f 4 26 5 139][e]
-[f 2 4 4][f 4 26 6 140][e]
-[f 2 4 2][f 4 26 7 141][e]
-[f 2 4 9][f 4 26 8 142][e]
-[f 2 4 8][f 4 26 9 143][e]
-[f 2 4 17][f 4 26 10 144][e]
-[f 2 4 19] and [f 2 4 18][f 4 26 11 145][e]
-[f 2 4 20][f 4 26 12 146][e]
-[f 2 4 21][f 4 26 13 147][e]
-[f 2 4 22][f 4 26 14 148][e]
-[f 2 4 23][f 4 26 15 149][e]
-[f 2 4 24][f 4 26 16 150][e]
-[f 2 4 25][f 4 26 17 151][e]
-[f 2 4 26][f 4 26 18 152][e]
-[f 2 4 27][f 4 26 19 153][e]
-[f 2 4 28][f 4 26 20 154][e]
-Kasumi[f 4 26 33 155][e]
-Maruki[f 4 26 35 156][e]
-Sumire[f 4 26 36 157][e]
-
-[dlg GENERIC_HELP_134]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Fool[clr 0][n]Arcana.[e]
-
-[dlg GENERIC_HELP_135]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Magician[clr 0][n]Arcana.[e]
+Igor[f 4 26 0 136][e]
+[f 2 4 3][f 4 26 1 137][e]
+[f 2 4 6][f 4 26 2 138][e]
+[f 2 4 7][f 4 26 3 139][e]
+[f 2 4 5][f 4 26 4 140][e]
+[f 2 4 16][f 4 26 5 141][e]
+[f 2 4 4][f 4 26 6 142][e]
+[f 2 4 2][f 4 26 7 143][e]
+[f 2 4 9][f 4 26 8 144][e]
+[f 2 4 8][f 4 26 9 145][e]
+[f 2 4 17][f 4 26 10 146][e]
+[f 2 4 19] and [f 2 4 18][f 4 26 11 147][e]
+[f 2 4 20][f 4 26 12 148][e]
+[f 2 4 21][f 4 26 13 149][e]
+[f 2 4 22][f 4 26 14 150][e]
+[f 2 4 23][f 4 26 15 151][e]
+[f 2 4 24][f 4 26 16 152][e]
+[f 2 4 25][f 4 26 17 153][e]
+[f 2 4 26][f 4 26 18 154][e]
+[f 2 4 27][f 4 26 19 155][e]
+[f 2 4 28][f 4 26 20 156][e]
+Kasumi[f 4 26 33 157][e]
+Maruki[f 4 26 35 158][e]
+Sumire[f 4 26 36 159][e]
 
 [dlg GENERIC_HELP_136]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Priestess[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Fool[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_137]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Empress[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Magician[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_138]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Emperor[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Priestess[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_139]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Heirophant[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Empress[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_140]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Lovers[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Emperor[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_141]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Chariot[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Heirophant[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_142]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Justice[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Lovers[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_143]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Hermit[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Chariot[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_144]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Fortune[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Justice[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_145]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Strength[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Hermit[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_146]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Hanged Man[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Fortune[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_147]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Death[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Strength[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_148]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Temperance[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Hanged Man[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_149]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Devil[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Death[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_150]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Tower[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Temperance[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_151]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Star[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Devil[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_152]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Moon[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Tower[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_153]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Sun[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Star[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_154]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Judgement[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Moon[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_155]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Faith[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Sun[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_156]
-[s]Set the desired rank for[n]the Confidant of the [clr 9]Councillor[clr 0][n]Arcana.[e]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Judgement[clr 0][n]Arcana.[e]
 
 [dlg GENERIC_HELP_157]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Faith[clr 0][n]Arcana.[e]
+
+[dlg GENERIC_HELP_158]
+[s]Set the desired rank for[n]the Confidant of the [clr 9]Councillor[clr 0][n]Arcana.[e]
+
+[dlg GENERIC_HELP_159]
 [s]Set the desired rank for[n]the Confidant of the [clr 9]Faith[clr 0][n]Arcana.[e]
 
 [dlg UNUSED_HELP_59]
@@ -264,25 +270,25 @@ Sumire[f 4 26 36 157][e]
 Select Stat Type...[w][e]
 
 [sel StatsMenu]
-Knowledge[f 4 26 0 161][e]
-Charm[f 4 26 1 162][e]
-Proficiency[f 4 26 2 163][e]
-Guts[f 4 26 3 164][e]
-Kindness[f 4 26 4 165][e]
-
-[dlg GENERIC_HELP_161]
-[s]Increase your [clr 26]Knowledge[clr 0] stat[n]by the specified number of[n]points.[e]
-
-[dlg GENERIC_HELP_162]
-[s]Increase your [clr 26]Charm[clr 0] stat[n]by the specified number of[n]points.[e]
+Knowledge[f 4 26 0 163][e]
+Charm[f 4 26 1 164][e]
+Proficiency[f 4 26 2 165][e]
+Guts[f 4 26 3 166][e]
+Kindness[f 4 26 4 167][e]
 
 [dlg GENERIC_HELP_163]
-[s]Increase your [clr 26]Proficiency[clr 0] stat[n]by the specified number of[n]points.[e]
+[s]Increase your [clr 26]Knowledge[clr 0] stat[n]by the specified number of[n]points.[e]
 
 [dlg GENERIC_HELP_164]
-[s]Increase your [clr 26]Guts[clr 0] stat[n]by the specified number of[n]points.[e]
+[s]Increase your [clr 26]Charm[clr 0] stat[n]by the specified number of[n]points.[e]
 
 [dlg GENERIC_HELP_165]
+[s]Increase your [clr 26]Proficiency[clr 0] stat[n]by the specified number of[n]points.[e]
+
+[dlg GENERIC_HELP_166]
+[s]Increase your [clr 26]Guts[clr 0] stat[n]by the specified number of[n]points.[e]
+
+[dlg GENERIC_HELP_167]
 [s]Increase your [clr 26]Kindness[clr 0] stat[n]by the specified number of[n]points.[e]
 
 [dlg StatPrompt [Stats]]
@@ -317,29 +323,29 @@ Umbrella Off[e]
 GAP Playback[w][e]
 
 [sel GAPMenu]
-Set GAP ID[f 4 26 0 175][e]
-Set GAP Index[f 4 26 1 176][e]
-Toggle Loop[f 4 26 2 177][e]
-Set Speed[f 4 26 3 178][e]
-Set Time[f 4 26 4 179][e]
-Playback animation[f 4 26 5 180][e]
-
-[dlg GENERIC_HELP_175]
-[s]Input the filename of[n]a [clr 9]field GAP file for[clr 0][n]this character. (Starts with [clr 9]af[clr 0])[e]
-
-[dlg GENERIC_HELP_176]
-[s]Input the index of the[n]animation from the [clr 26]GAP[clr 0][n]that you want to view.[e]
+Set GAP ID[f 4 26 0 177][e]
+Set GAP Index[f 4 26 1 178][e]
+Toggle Loop[f 4 26 2 179][e]
+Set Speed[f 4 26 3 180][e]
+Set Time[f 4 26 4 181][e]
+Playback animation[f 4 26 5 182][e]
 
 [dlg GENERIC_HELP_177]
-[s]Decide whether you want[n]the animation to repeat or not[n]when it's finished.[e]
+[s]Input the filename of[n]a [clr 9]field GAP file for[clr 0][n]this character. (Starts with [clr 9]af[clr 0])[e]
 
 [dlg GENERIC_HELP_178]
-[s]Decide the playback speed[n]of the animation.[e]
+[s]Input the index of the[n]animation from the [clr 26]GAP[clr 0][n]that you want to view.[e]
 
 [dlg GENERIC_HELP_179]
-[s]Decide how many seconds you[n]would like to play the[n]animation for.[e]
+[s]Decide whether you want[n]the animation to repeat or not[n]when it's finished.[e]
 
 [dlg GENERIC_HELP_180]
+[s]Decide the playback speed[n]of the animation.[e]
+
+[dlg GENERIC_HELP_181]
+[s]Decide how many seconds you[n]would like to play the[n]animation for.[e]
+
+[dlg GENERIC_HELP_182]
 [s]Execute the animation playback[n][clr 9]after the above settings[clr 0][n]have been completed.[e]
 
 [dlg ScalePrompt [Scale Model]]
@@ -350,30 +356,30 @@ Set the character's model scale.[n](press Circle to end)[n]Default is 10.[w][e]
 Camera Options[w][e]
 
 [sel CameraMenu]
-Reposition Camera[f 4 26 0 184][e]
-Adjust FOV[f 4 26 1 185][e]
-Adjust Zoom[f 4 26 2 186][e]
-Rotate Camera[f 4 26 3 187][e]
-Unlock Camera[f 4 26 4 188][e]
-Lock Camera[f 4 26 5 189][e]
-Disable Camera Shake[f 4 26 6 190][e]
-
-[dlg GENERIC_HELP_184]
-[s]Move the camera along the X, Y[n]or Z axis. Hold Square to change[n]the axis.[e]
-
-[dlg GENERIC_HELP_185]
-[s]Adjust the camera's[n]Field of View.[e]
+Reposition Camera[f 4 26 0 186][e]
+Adjust FOV[f 4 26 1 187][e]
+Adjust Zoom[f 4 26 2 188][e]
+Rotate Camera[f 4 26 3 189][e]
+Unlock Camera[f 4 26 4 190][e]
+Lock Camera[f 4 26 5 191][e]
+Disable Camera Shake[f 4 26 6 192][e]
 
 [dlg GENERIC_HELP_186]
-[s]Zoom the camera in[n]and out.[e]
+[s]Move the camera along the X, Y[n]or Z axis. Hold Square to change[n]the axis.[e]
 
 [dlg GENERIC_HELP_187]
-[s]Change the orientation of the[n]camera with the D-pad.[e]
+[s]Adjust the camera's[n]Field of View.[e]
 
 [dlg GENERIC_HELP_188]
-[s]Make the camera follow the player[n]again if previously locked.[e]
+[s]Zoom the camera in[n]and out.[e]
 
 [dlg GENERIC_HELP_189]
+[s]Change the orientation of the[n]camera with the D-pad.[e]
+
+[dlg GENERIC_HELP_190]
+[s]Make the camera follow the player[n]again if previously locked.[e]
+
+[dlg GENERIC_HELP_191]
 [s]Makes the camera stationary,[n]which is required to modify it.[e]
 
 [sel OneThruTen]
@@ -392,21 +398,21 @@ Disable Camera Shake[f 4 26 6 190][e]
 Calendar Options[w][e]
 
 [sel CalendarMenu]
-Set Next Day[f 4 26 0 193][e]
-Call Calendar[f 4 26 1 194][e]
-Set Weather[f 4 26 2 195][e]
-Loop Current Day[f 4 26 3 196][e]
-
-[dlg GENERIC_HELP_193]
-[s]Choose the day and month[n]to warp to.[e]
-
-[dlg GENERIC_HELP_194]
-[s]End the current day and warp[n]to the next specified day.[e]
+Set Next Day[f 4 26 0 195][e]
+Call Calendar[f 4 26 1 196][e]
+Set Weather[f 4 26 2 197][e]
+Loop Current Day[f 4 26 3 198][e]
 
 [dlg GENERIC_HELP_195]
-[s]Change the current weather[n]condition value. Weather should[n]change after reloading map.[e]
+[s]Choose the day and month[n]to warp to.[e]
 
 [dlg GENERIC_HELP_196]
+[s]End the current day and warp[n]to the next specified day.[e]
+
+[dlg GENERIC_HELP_197]
+[s]Change the current weather[n]condition value. Weather should[n]change after reloading map.[e]
+
+[dlg GENERIC_HELP_198]
 [s]Sets the current time[n]of day to be next after[n]ending the current day.[e]
 
 [dlg CalendarPrompt[Calendar]]
@@ -443,50 +449,50 @@ Choose the last 3 digits of
 NPC Options[w][e]
 
 [sel SpawnMenu]
-Spawn Model[f 4 26 0 207][e]
-Animate Model[f 4 26 1 208][e]
-Set Model Scale[f 4 26 2 209][e]
-Attach Item Model[f 4 26 3 210][e]
-Spawn Object Model[f 4 26 4 211][e]
-
-[dlg GENERIC_HELP_207]
-[s]Input a [clr 9]GMD filename[clr 0][n]to spawn a character model from.[e]
-
-[dlg GENERIC_HELP_208]
-[s]Apply field animations[n]to the last NPC you spawned.[e]
+Spawn Model[f 4 26 0 209][e]
+Animate Model[f 4 26 1 210][e]
+Set Model Scale[f 4 26 2 211][e]
+Attach Item Model[f 4 26 3 212][e]
+Spawn Object Model[f 4 26 4 213][e]
 
 [dlg GENERIC_HELP_209]
-[s]Set the scale of the[n]NPC model.[e]
+[s]Input a [clr 9]GMD filename[clr 0][n]to spawn a character model from.[e]
 
 [dlg GENERIC_HELP_210]
-[s]Input a [clr 9]GMD filename[clr 0][n]to attach to the NPC.[e]
+[s]Apply field animations[n]to the last NPC you spawned.[e]
 
 [dlg GENERIC_HELP_211]
+[s]Set the scale of the[n]NPC model.[e]
+
+[dlg GENERIC_HELP_212]
+[s]Input a [clr 9]GMD filename[clr 0][n]to attach to the NPC.[e]
+
+[dlg GENERIC_HELP_213]
 [s]Input a [clr 9]GMD filename[clr 0][n]of an object to spawn.[e]
 
 [dlg PersonaMenuName]
 Persona Options[w][e]
 
 [sel PersonaMenu]
-Add Persona[f 4 26 0 214][e]
-Delete Personas[f 4 26 1 215][e]
-Add Skill[f 4 26 2 216][e]
-Unlock Full Compendium[f 4 26 3 217][e]
-Evolve Persona[f 4 26 4 218][e]
-
-[dlg GENERIC_HELP_214]
-[s]Input a Persona's name or ID[n]to add it to your stock.[e]
-
-[dlg GENERIC_HELP_215]
-[s]Permanently remove all Personas[n]from your current stock.[e]
+Add Persona[f 4 26 0 216][e]
+Delete Personas[f 4 26 1 217][e]
+Add Skill[f 4 26 2 218][e]
+Unlock Full Compendium[f 4 26 3 219][e]
+Evolve Persona[f 4 26 4 220][e]
 
 [dlg GENERIC_HELP_216]
-[s]Choose a party member and the[n]name or ID of a Skill to add[n]to their current Persona.[e]
+[s]Input a Persona's name or ID[n]to add it to your stock.[e]
 
 [dlg GENERIC_HELP_217]
-[s]Register every Persona in[n]the game by filling your[n]stock with them all.[e]
+[s]Permanently remove all Personas[n]from your current stock.[e]
 
 [dlg GENERIC_HELP_218]
+[s]Choose a party member and the[n]name or ID of a Skill to add[n]to their current Persona.[e]
+
+[dlg GENERIC_HELP_219]
+[s]Register every Persona in[n]the game by filling your[n]stock with them all.[e]
+
+[dlg GENERIC_HELP_220]
 [s]Evolve a party member's Persona[n]into its Ultimate form.[e]
 
 
@@ -526,7 +532,7 @@ Choose a character to add a skill to
 
 [dlg SkillPrompt [Add Skill]]
 Enter the ID of the skill to add.
-[n](max. 3 digits, press Circle to end)[w][e]
+[n](max. 4 digits, press Circle to end)[w][e]
 
 [dlg PersonaAddPrompt [Add Persona]]
 Input the ID of the Persona to add.
@@ -578,97 +584,95 @@ Select a bgm to play.[w][e]
 Flag Options[w][e]
 
 [sel FlagMenu]
-HUD Display[f 4 26 0 239][e]
-Add Party Members[f 4 26 1 240][e]
-Remove Party Members[f 4 26 2 241][e]
-Enable Party Editing[f 4 26 3 242][e]
-Unlock All Persona Slots[f 4 26 4 243][e]
-Add Overworld Follower[f 4 26 5 244][e]
-Navigator[f 4 26 6 245][e]
-Change Romance Route[f 4 26 7 246][e]
-Room Editor[f 4 26 8 247][e]
-Manual Input[f 4 26 9 248][e]
-Print Enabled Flags[f 4 26 10 249][e]
-Mass Flag Editor[f 4 26 11 250][e]
-
-[dlg GENERIC_HELP_239]
-[s]Show or hide the user interface[n]elements, such as the date, time,[n]and mission list.[e]
-
-[dlg GENERIC_HELP_240]
-[s]Make a Persona user available to[n]add to your party.[e]
+HUD Display[f 4 26 0 241][e]
+Add Party Members[f 4 26 1 242][e]
+Remove Party Members[f 4 26 2 243][e]
+Enable Party Editing[f 4 26 3 244][e]
+Unlock All Persona Slots[f 4 26 4 245][e]
+Add Overworld Follower[f 4 26 5 246][e]
+Navigator[f 4 26 6 247][e]
+Change Romance Route[f 4 26 7 248][e]
+Room Editor[f 4 26 8 249][e]
+Manual Input[f 4 26 9 250][e]
+Print Enabled Flags[f 4 26 10 251][e]
+Mass Flag Editor[f 4 26 11 252][e]
 
 [dlg GENERIC_HELP_241]
-[s]Revoke a Persona user's[n]availability to be added[n]to your party.[e]
+[s]Show or hide the user interface[n]elements, such as the date, time,[n]and mission list.[e]
 
 [dlg GENERIC_HELP_242]
-[s]Allow choosing your own[n]party members from the Stats[n]menu in the pause menu.[e]
+[s]Make a Persona user available to[n]add to your party.[e]
 
 [dlg GENERIC_HELP_243]
-[s]Unlocks all 12 Persona slots.[e]
+[s]Revoke a Persona user's[n]availability to be added[n]to your party.[e]
 
 [dlg GENERIC_HELP_244]
-[s]Enable or disable party[n]members following you[n]in the overworld.[e]
+[s]Allow choosing your own[n]party members from the Stats[n]menu in the pause menu.[e]
 
 [dlg GENERIC_HELP_245]
-[s]Change which character[n]currently serves as the Navigator.[e]
+[s]Unlocks all 12 Persona slots.[e]
 
 [dlg GENERIC_HELP_246]
-[s]Start or end a relationship with[n]a female Confidant.[e]
+[s]Enable or disable party[n]members following you[n]in the overworld.[e]
 
 [dlg GENERIC_HELP_247]
-[s]Modify the state of the[n]protagonist's bedroom in[n]the Leblanc attic.[e]
+[s]Change which character[n]currently serves as the Navigator.[e]
 
 [dlg GENERIC_HELP_248]
-[s]Enter an 4-digit decimal value[n]of a bit to either[n]enable or disable it.[e]
+[s]Start or end a relationship with[n]a female Confidant.[e]
 
 [dlg GENERIC_HELP_249]
-[s]Print all currently enabled[n]bit flag values to the[n]TTY log.[e]
+[s]Modify the state of the[n]protagonist's bedroom in[n]the Leblanc attic.[e]
 
 [dlg GENERIC_HELP_250]
+[s]Enter a 5-digit decimal value[n]of a bit to either[n]enable or disable it.[e]
+
+[dlg GENERIC_HELP_251]
+[s]Print all currently enabled[n]bit flag values to the[n]TTY log.[e]
+
+[dlg GENERIC_HELP_252]
 [s]Manipulate a selected[n]range of bit flags to[n]toggle or print.[e]
 
 [dlg FieldMenuName]
 Field Select[e]
 
 [sel FieldMenu]
-Enter Field ID[f 4 26 0 253][e]
-Select by name[f 4 26 1 254][e]
-Load Field[f 4 26 2 255][e]
-Reload Current Field[f 4 26 3 256][e]
-
-[dlg GENERIC_HELP_253]
-[s]Input the 6 digits of a[n][clr 9]field pack's[clr 0] filename[n](found in ps3.cpk/field)[e]
-
-[dlg GENERIC_HELP_254]
-[s]Select a field by name[e]
+Enter Field ID[f 4 26 0 255][e]
+Select by name[f 4 26 1 256][e]
+Load Field[f 4 26 2 257][e]
+Reload Current Field[f 4 26 3 258][e]
 
 [dlg GENERIC_HELP_255]
-[s]Attempt to load the selected[n]field. [clr 9]WARNING: Some fields may[n]softlock the game.[clr 0][e]
+[s]Input the 6 digits of a[n][clr 9]field pack's[clr 0] filename[n](found in ps3.cpk/field)[e]
 
 [dlg GENERIC_HELP_256]
+[s]Select a field by name[e]
+
+[dlg GENERIC_HELP_257]
+[s]Attempt to load the selected[n]field. [clr 9]WARNING: Some fields may[n]softlock the game.[clr 0][e]
+
+[dlg GENERIC_HELP_258]
 [s]Reload the field that[n]you're currently on.[e]
 
 [dlg EventMenuName]
 Event Select[e]
 
 [sel EventMenu]
-Enter Event ID[f 4 26 0 259][e]
-Load Event[f 4 26 1 260][e]
-Enter KeyFree Event ID[f 4 26 2 261][e]
-Load KeyFree Event[f 4 26 3 262][e]
-Change Event MajorID[f 4 26 4 263][e]
-Change Event MinorID[f 4 26 5 264][e]
-
-[dlg GENERIC_HELP_259]
-[s]Input the 6 digits of a[n][clr 9]event pack's[clr 0] filename[n](found in data.cpk/event)[e]
-
-[dlg GENERIC_HELP_260]
-[s]Attempt to load the selected[n]event. [clr 9]WARNING: Some events may[n]softlock the game.[clr 0][e]
+Enter Event ID[f 4 26 0 261][e]
+Load Event[f 4 26 1 262][e]
+Enter KeyFree Event ID[f 4 26 2 263][e]
+Load KeyFree Event[f 4 26 3 264][e]
 
 [dlg GENERIC_HELP_261]
-[s]Input the 6 digits of a[n][clr 9]event pack's[clr 0] filename[n](found in ps3.cpk/field).[clr 0][e]
+[s]Input the 6 digits of a[n][clr 9]event pack's[clr 0] filename[n](found in data.cpk/event)[e]
 
 [dlg GENERIC_HELP_262]
+[s]Attempt to load the selected[n]event. [clr 9]WARNING: Some events may[n]softlock the game.[clr 0][e]
+
+[dlg GENERIC_HELP_263]
+[s]Input the 6 digits of a[n][clr 9]event pack's[clr 0] filename[n](found in ps3.cpk/field).[clr 0][e]
+
+[dlg GENERIC_HELP_264]
 [s]Attempt to load the selected[n]KeyFree event. [clr 9]WARNING: Some events may[n]softlock the game.[clr 0][e]
 
 [dlg NaviMenuName]
@@ -957,10 +961,10 @@ MISC[e]
 [dlg EncounterPrompt]
 Set the number of the encounter[n]you want to fight (3 digits).[w][e]
 
-[dlg ShopPrompt]
+[dlg ShopPrompt [Shop Test]]
 Input the ID of the shop[n]you want to test (2 digits).[w][e]
 
-[dlg ChatPrompt]
+[dlg ChatPrompt [Chat Test]]
 Input the ID of the chat[n]you want to test (4 digits).[w][e]
 
 [sel FlagMassEditor]
@@ -989,13 +993,13 @@ Add Persona (Reserves)[e]
 [dlg BagShowHide]
 The bag has been toggled.[n]To see the change, go to a new field[n]or reload the current one.[w][e]
 
-[dlg GENERIC_HELP_312]
+[dlg GENERIC_HELP_314]
 Removes the swaying effect[n]of the camera that's[n]used in dungeons.[w][e]
 
-[dlg GENERIC_HELP_313]
+[dlg GENERIC_HELP_315]
 Select an item's model ID to[n]spawn it and connect it to[n]the character's model.[w][e]
 
-[dlg GENERIC_HELP_314]
+[dlg GENERIC_HELP_316]
 Select a range of flags[n]to either enable or disable.[w][e]
 
 [dlg ItemSpawnPrompt]
@@ -1016,32 +1020,32 @@ Enter the start of the[n]range to narrow down.[n](Max 4 digits, press Circle to 
 [dlg FlagRangePrompt2]
 Enter the end of the[n]range to narrow down.[n](Max 4 digits, press Circle to end).[w][e]
 
-[dlg GENERIC_HELP_321]
+[dlg GENERIC_HELP_323]
 Unlocks all Personas in the[n]Compendium. [clr 9]This will delete all[n]Personas in your current stock![clr 0][w][e]
 
 [dlg FontMenuName]
 Font Test Options[w][e]
 
 [sel FontTestMenu]
-[s]Sample text[f 4 26 0 324][e]
-[s]Uppercase[f 4 26 1 325][e]
-[s]Lowercase[f 4 26 2 326][e]
-[s]Symbols[f 4 26 3 327][e]
-[s]All-in-One[f 4 26 4 328][e]
-
-[dlg GENERIC_HELP_324]
-[s]Print a sample sentence[n]for font testing.[e]
-
-[dlg GENERIC_HELP_325]
-[s]Print a text message with[n]uppercase letters.[e]
+[s]Sample text[f 4 26 0 326][e]
+[s]Uppercase[f 4 26 1 327][e]
+[s]Lowercase[f 4 26 2 328][e]
+[s]Symbols[f 4 26 3 329][e]
+[s]All-in-One[f 4 26 4 330][e]
 
 [dlg GENERIC_HELP_326]
-[s]Print a text message with[n]lowercase letters.[e]
+[s]Print a sample sentence[n]for font testing.[e]
 
 [dlg GENERIC_HELP_327]
-[s]Print a text message with[n]numbers and special[n]characters.[e]
+[s]Print a text message with[n]uppercase letters.[e]
 
 [dlg GENERIC_HELP_328]
+[s]Print a text message with[n]lowercase letters.[e]
+
+[dlg GENERIC_HELP_329]
+[s]Print a text message with[n]numbers and special[n]characters.[e]
+
+[dlg GENERIC_HELP_330]
 [s]Print a text message with[n]all the characters.[e]
 
 [dlg FontTest0[The Font Guy]]
@@ -1063,74 +1067,74 @@ Font Test Options[w][e]
 Party Member Cutin Test[w][e]
 
 [sel PartyCharacterSelect]
-[s][f 2 4 2][f 4 26 0 336][e]
-[s][f 2 4 3][f 4 26 1 337][e]
-[s][f 2 4 4][f 4 26 2 338][e]
-[s][f 2 4 5][f 4 26 3 339][e]
-[s][f 2 4 6][f 4 26 4 340][e]
-[s][f 2 4 7][f 4 26 5 341][e]
-[s][f 2 4 8][f 4 26 6 342][e]
-[s][f 2 4 9][f 4 26 7 343][e]
-[s]Villain [f 2 4 9][f 4 26 8 344][e]
-
-[dlg GENERIC_HELP_336]
-[s]Test the dialogue cutins[n]for [f 2 4 2].[e]
-
-[dlg GENERIC_HELP_337]
-[s]Test the dialogue cutins[n]for [f 2 4 3].[e]
+[s][f 2 4 2][f 4 26 0 338][e]
+[s][f 2 4 3][f 4 26 1 339][e]
+[s][f 2 4 4][f 4 26 2 340][e]
+[s][f 2 4 5][f 4 26 3 341][e]
+[s][f 2 4 6][f 4 26 4 342][e]
+[s][f 2 4 7][f 4 26 5 343][e]
+[s][f 2 4 8][f 4 26 6 344][e]
+[s][f 2 4 9][f 4 26 7 345][e]
+[s]Villain [f 2 4 9][f 4 26 8 346][e]
 
 [dlg GENERIC_HELP_338]
-[s]Test the dialogue cutins[n]for [f 2 4 4].[e]
+[s]Test the dialogue cutins[n]for [f 2 4 2].[e]
 
 [dlg GENERIC_HELP_339]
-[s]Test the dialogue cutins[n]for [f 2 4 5].[e]
+[s]Test the dialogue cutins[n]for [f 2 4 3].[e]
 
 [dlg GENERIC_HELP_340]
-[s]Test the dialogue cutins[n]for [f 2 4 6].[e]
+[s]Test the dialogue cutins[n]for [f 2 4 4].[e]
 
 [dlg GENERIC_HELP_341]
-[s]Test the dialogue cutins[n]for [f 2 4 7].[e]
+[s]Test the dialogue cutins[n]for [f 2 4 5].[e]
 
 [dlg GENERIC_HELP_342]
-[s]Test the dialogue cutins[n]for [f 2 4 8].[e]
+[s]Test the dialogue cutins[n]for [f 2 4 6].[e]
 
 [dlg GENERIC_HELP_343]
-[s]Test the dialogue cutins[n]for [f 2 4 9].[e]
+[s]Test the dialogue cutins[n]for [f 2 4 7].[e]
 
 [dlg GENERIC_HELP_344]
+[s]Test the dialogue cutins[n]for [f 2 4 8].[e]
+
+[dlg GENERIC_HELP_345]
+[s]Test the dialogue cutins[n]for [f 2 4 9].[e]
+
+[dlg GENERIC_HELP_346]
 [s]Test the dialogue cutins[n]for Villain [f 2 4 9].[e]
 
 [dlg ParticleMenuName]
 Particle Menu[w][e]
 
 [sel ParticleMenu]
-[s]Automatic Particle Selection[f 4 26 0 347][e]
-[s]Manual Particle Selection[f 4 26 1 348][e]
-[s]Set Params to Default[f 4 26 2 349][e]
-[s]Set Effect Size[f 4 26 3 350][e]
-[s]Set Effect Speed[f 4 26 4 351][e]
-[s]Set Effect Position[f 4 26 5 352][e]
-[s]Set Effect Translucency[f 4 26 6 353][e]
-
-[dlg GENERIC_HELP_347]
-[s]Preview EPL's placed inside[n]'data.cpk\field\effect\bank'[n][clr 9]MUST BE NAMED fb###.EPL[n]OR THE GAME SOFTLOCKS![clr 0][e]
-
-[dlg GENERIC_HELP_348]
-[s]Select a 3-digit number from the[n]effect bank folder [clr 9](fb###.EPL)[n][clr 0]to preview.[e]
+[s]Automatic Particle Selection[f 4 26 0 349][e]
+[s]Manual Particle Selection[f 4 26 1 350][e]
+[s]Set Params to Default[f 4 26 2 351][e]
+[s]Set Effect Size[f 4 26 3 352][e]
+[s]Set Effect Speed[f 4 26 4 353][e]
+[s]Set Effect Position[f 4 26 5 354][e]
+[s]Set Effect Translucency[f 4 26 6 355][e]
 
 [dlg GENERIC_HELP_349]
-[s]Reset all properties of[n]the current EPL.[n][e]
+[s]Preview EPL's placed inside[n]'data.cpk\field\effect\bank'[n][clr 9]MUST BE NAMED fb###.EPL[n]OR THE GAME SOFTLOCKS![clr 0][e]
 
 [dlg GENERIC_HELP_350]
-[s]Set the Size[n]of the current EPL.[n][e]
+[s]Select a 3-digit number from the[n]effect bank folder [clr 9](fb###.EPL)[n][clr 0]to preview.[e]
 
 [dlg GENERIC_HELP_351]
-[s]Set the Speed[n]of the current EPL.[n][e]
+[s]Reset all properties of[n]the current EPL.[n][e]
 
 [dlg GENERIC_HELP_352]
-[s]Set the Position[n]of the current EPL to the player.[e]
+[s]Set the Size[n]of the current EPL.[n][e]
 
 [dlg GENERIC_HELP_353]
+[s]Set the Speed[n]of the current EPL.[n][e]
+
+[dlg GENERIC_HELP_354]
+[s]Set the Position[n]of the current EPL to the player.[e]
+
+[dlg GENERIC_HELP_355]
 [s]Set the Opacity[n]of the current EPL.[n][e]
 
 [dlg ScaleParticle]
@@ -1143,53 +1147,53 @@ Set the particles's speed.[n](press Circle to end)[n]Default is 10.[w][e]
 Set the particles's opacity.[n](press Circle to end)[n]Default is 10.[w][e]
 
 [sel EnviromentEditor]
-[s]Set all Scenelights to White[f 4 26 0 358][e]
-[s]Print Scenelights to TTY[f 4 26 1 359][e]
-[s]Set Ambient Scenelight[f 4 26 2 360][e]
-[s]Set Diffuse Scenelight[f 4 26 3 361][e]
-[s]Set Specular Scenelight[f 4 26 4 362][e]
-[s]Print Current Fog Params to TTY[f 4 26 5 363][e]
-[s]Set Near Clip[f 4 26 6 364][e]
-[s]Set Far Clip[f 4 26 7 365][e]
-[s]Set Fog Hue[f 4 26 8 366][e]
-[s]Set Fog Saturation[f 4 26 9 367][e]
-[s]Set Fog Lightness[f 4 26 10 368][e]
-[s]Set Fog Alpha[f 4 26 11 369][e]
-
-[dlg GENERIC_HELP_358]
-[s]Set all Scenelight data on[n]the current field to 255.[e]
-
-[dlg GENERIC_HELP_359]
-[s]Print all Scenelight data on[n]the current field to the TTY Log.[e]
+[s]Set all Scenelights to White[f 4 26 0 360][e]
+[s]Print Scenelights to TTY[f 4 26 1 361][e]
+[s]Set Ambient Scenelight[f 4 26 2 362][e]
+[s]Set Diffuse Scenelight[f 4 26 3 363][e]
+[s]Set Specular Scenelight[f 4 26 4 364][e]
+[s]Print Current Fog Params to TTY[f 4 26 5 365][e]
+[s]Set Near Clip[f 4 26 6 366][e]
+[s]Set Far Clip[f 4 26 7 367][e]
+[s]Set Fog Hue[f 4 26 8 368][e]
+[s]Set Fog Saturation[f 4 26 9 369][e]
+[s]Set Fog Lightness[f 4 26 10 370][e]
+[s]Set Fog Alpha[f 4 26 11 371][e]
 
 [dlg GENERIC_HELP_360]
-[s]Set the HSL Values for the[n]Ambient Scenelight.[e]
+[s]Set all Scenelight data on[n]the current field to 255.[e]
 
 [dlg GENERIC_HELP_361]
-[s]Set the HSL Values for the[n]Diffuse Scenelight.[e]
+[s]Print all Scenelight data on[n]the current field to the TTY Log.[e]
 
 [dlg GENERIC_HELP_362]
-[s]Set the HSL Values for the[n]Specular Scenelight.[e]
+[s]Set the HSL Values for the[n]Ambient Scenelight.[e]
 
 [dlg GENERIC_HELP_363]
-[s]Print all fog params on[n]the current field to the TTY Log.[e]
+[s]Set the HSL Values for the[n]Diffuse Scenelight.[e]
 
 [dlg GENERIC_HELP_364]
-[s]Set the starting[n]location for the fog.[e]
+[s]Set the HSL Values for the[n]Specular Scenelight.[e]
 
 [dlg GENERIC_HELP_365]
-[s]Set the starting[n]radius for the fog.[e]
+[s]Print all fog params on[n]the current field to the TTY Log.[e]
 
 [dlg GENERIC_HELP_366]
-[s]Set the current fog's Hue.[e]
+[s]Set the starting[n]location for the fog.[e]
 
 [dlg GENERIC_HELP_367]
-[s]Set the current fog's Saturation.[e]
+[s]Set the starting[n]radius for the fog.[e]
 
 [dlg GENERIC_HELP_368]
-[s]Set the current fog's Lightness.[e]
+[s]Set the current fog's Hue.[e]
 
 [dlg GENERIC_HELP_369]
+[s]Set the current fog's Saturation.[e]
+
+[dlg GENERIC_HELP_370]
+[s]Set the current fog's Lightness.[e]
+
+[dlg GENERIC_HELP_371]
 [s]Set the current fog's Opacity.[e]
 
 [dlg HueDlg]
@@ -1209,3 +1213,6 @@ Set the fog's Near Clip[n](press Circle to end)[w][e]
 
 [dlg FarClipDlg]
 Set the fog's Far Clip[n](press Circle to end)[w][e]
+
+[dlg FieldDlg3[Field Select]]
+Choose the Entrance ID you'd like[n]to use (0 if unsure).[w][e]
